@@ -14,9 +14,7 @@ if (!MONGO_URL) {
 }
 
 try {
-  await mongoose.connect(MONGO_URL,{
-    serverSelectionTimeoutMS: 50000
-  });
+  await mongoose.connect(MONGO_URL); 
   console.info("Mongo Concectado")
   const app= express();
   app.use(express.json())

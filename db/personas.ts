@@ -1,4 +1,4 @@
-import mongoose from "npm:mongoose@8.4.3"
+import mongoose from "npm:mongoose@7.6.3";
 import { persona } from '../types.ts';
 
 
